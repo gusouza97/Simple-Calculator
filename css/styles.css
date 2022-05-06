@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+main {
+    width: 420px;
+}
+
+.calcPanel {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.calcHistory {
+    display: flex;
+    font-size: 20px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #FDA4AF;
+    height: 90px;
+    width: 100%;
+    background-color: #262626;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.calcResult {
+    display: flex;
+    font-size: 30px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 30px;
+    height: 60px;
+    background-color: #262626;
+}
+
+.divBtns {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn,
+.btnZero,
+.btnDelete,
+.btnResult,
+.btnOperator {
+    height: 90px;
+    width: 33.3%;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 0%, #f2f2f2 100%);
+    background-image: linear-gradient(90deg, #ffffff 0%, #f2f2f2 100%);
+}
+
+.btnOperator {
+    background-color: #8a4aec;
+    background-image: linear-gradient(180deg, #8a4aec 0%, #7c3aed 100%);
+    color: white;
+}
+
+.btnZero {
+    border-bottom-left-radius: 10px;
+}
+
+.btnDelete {
+    width: 100%;
+}
+
+.btnResult {
+    border-bottom-right-radius: 10px;
+    color: white;
+    width: 66.5%;
+    background-color: #e4408a;
+    background-image: linear-gradient(180deg, #e4408a 0%, #db2777 100%);
+}
