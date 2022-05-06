@@ -136,7 +136,7 @@
             if (value == '-') {
                 operator = '-'
             }
-            if (value == 'X') {
+            if (value == 'X' || value == '*') {
                 operator = 'x'
             }
             if (value == '/') {
