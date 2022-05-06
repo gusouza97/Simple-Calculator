@@ -140,7 +140,7 @@
                 operator = 'x'
             }
             if (value == '/') {
-                operator = '/'
+                operator = '÷'
             }
 
             if (value == '=' || value == 'Enter') {
@@ -181,7 +181,7 @@
             }
 
             if (
-                caracters[i] == '/' &&
+                caracters[i] == '÷' &&
                 caracters[i - 1] != 'NA' &&
                 caracters[i + 1] != 'NA'
             ) {
